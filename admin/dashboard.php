@@ -303,7 +303,7 @@ if (empty($_SESSION['admin'])) {
                             echo "<td>{$plat['categoriePlat']}</td>";
                             echo "<td>{$plat['TypeCuisine']}</td>";
                             echo "<td>{$plat['prix']} Dh</td>"; 
-                        echo "</tr>"
+                        echo "</tr>";
                     }
 
                 ?>

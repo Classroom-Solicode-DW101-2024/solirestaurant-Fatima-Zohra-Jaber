@@ -68,13 +68,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <title>Inscription</title>
-    <style>
-        /* h2{text-align:center;}
-        form {display: flex; flex-direction: column; width: 300px; margin: auto;}
-        input {margin-top: 10px; padding: 8px;}
-        div { width: 300px; margin: auto; }
-        .erreur { color: red; font-size: 14px; } */
-    </style>
+    
 </head>
 <body>
 

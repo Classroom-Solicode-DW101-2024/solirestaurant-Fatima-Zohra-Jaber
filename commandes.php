@@ -34,7 +34,6 @@
                     <th>Prix</th>
                     <th>Quantité</th>
                     <th>Statut</th>
-                    <!-- <th>Action</th> -->
                 </tr>          
             </thead>
             <tbody>
@@ -58,8 +57,7 @@
                             echo "<td>{$cmd['qte']}</td>";
                             $statut = $cmd['Statut'];
                             $classe_css = $status_classes[$statut];
-                            echo "<td><span class='badge $classe_css'>{$statut}</span></td>";                       
-                        // echo "<td><a href='commandes.php?idCmd={$cmd['idCmd']}'>Annuler</a></td>";
+                            echo "<td><span class='badge $classe_css'>{$statut}</span></td>";       
                         echo "</tr>";
                     }
 

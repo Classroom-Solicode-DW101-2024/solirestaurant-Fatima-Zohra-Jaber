@@ -62,7 +62,6 @@
                 <option value="dessert">dessert</option>
                 <option value="entrée">entrée</option>
             </select>
-            <!-- <input type="text" id="recherche" placeholder="Rechercher" name="inputRecherch"> -->
             <button type="submit" name="submitRecherch" >Rechercher</button>
         </form>
     <main class="container">
@@ -72,7 +71,6 @@
             if(!empty($platsRecherch)){
                 echo "<h1>Résultats de recherche :</h1>";
                 echo "<div class='platCuisine row g-4'>";
-                // echo "<h2>Plats $platsRecherch[]</h2>";
                 foreach($platsRecherch as $plat){                   
                     getPlats($plat);                
                 }
@@ -102,7 +100,7 @@
             }
         ?>
         </section>
-            <!-- Cart Section -->
+            <!-- Panier Section -->
            <?php  include 'panier.php'; ?>
     </main>
     

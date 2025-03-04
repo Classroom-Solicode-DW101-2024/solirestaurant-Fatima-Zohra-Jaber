@@ -13,8 +13,8 @@
         $stmIdCmd = $conn->query($sqlIdCmd);
         $id = $stmIdCmd->fetch(PDO::FETCH_ASSOC);
         // Calculer le prochain idCmd
-        $nextId = $id ? substr($id['idCmd'], 1) + 1 : 1; // Si pas d'idCmd existant, commencer à 1
-        $idCmd = "C" . str_pad($nextId, 3, '0', STR_PAD_LEFT); // Ajouter "C" et formater avec 3 chiffres
+        $nextId = $id ? substr($id['idCmd'], 1) + 1 : 1; 
+        $idCmd = "C" . str_pad($nextId, 3, '0', STR_PAD_LEFT); 
         echo $idCmd;
         
         // Insérer la commande dans la table commande
